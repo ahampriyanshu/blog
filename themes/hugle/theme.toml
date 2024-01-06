@@ -4,7 +4,7 @@
 name = "hugle"
 license = "MIT"
 licenselink = "https://github.com/ahampriyanshu/hugle/blob/main/LICENSE"
-description = "G-Suite styled hugo theme for folks impersonating as Software Developers"
+description = "Google Docs styled blog theme in Hugo."
 homepage = "https://ahampriyanshu.com/blog"
 tags = [
   "blog",
