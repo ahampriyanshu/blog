@@ -2,3 +2,8 @@ baseURL = 'https://ahampriyanshu.com/blog'
 languageCode = 'en-us'
 title = 'ahampriyanshu'
 theme="hugle"
+
+[sitemap]
+  changeFreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.8
