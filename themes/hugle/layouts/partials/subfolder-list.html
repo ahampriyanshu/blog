@@ -1,0 +1,11 @@
+<ul>
+    {{ range .Sections }}
+    {{ $section := . }}
+    <li>
+        {{ with (where .Pages "Section" $section) }}
+        <a href="{{ $section.Permalink }}">{{ $section.Title }}</a>
+        ({{ len . }} pages)
+        {{ end }}
+    </li>
+    {{ end }}
+</ul>
