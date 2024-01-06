@@ -1,5 +1,9 @@
-{{ define "content" }}
-<div class="application-main">
-  <main>{{ partial "posts.html" .}}</main>
-</div>
-{{end }}
+{{ define "main" }}
+<h1>Blog Posts</h1>
+<ul>
+  {{ range .Pages }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+
+{{ end }}

@@ -85,61 +85,10 @@
     max-height: 100%;
     max-width: 100%;
   }
-
-  body::-webkit-scrollbar {
-    display: none;
-  }
-
-  ::-moz-selection {
-    color: #fff;
-    background: #d65472;
-  }
-
-  ::selection {
-    color: #fff;
-    background: #d65472;
-  }
-
-  h1 {
-    font-size: 4.5em;
-    font-weight: 500;
-    margin-bottom: 0;
-  }
-
-  h2 {
-    font-weight: 500;
-    font-size: 2.5em;
-  }
-
-  h3 {
-    font-size: 1.5em;
-    font-weight: 300;
-    line-height: 1.5em;
-    max-width: 28em;
-  }
-
-  a,
-  a:visited,
-  a:hover,
-  a:focus,
-  a:hover,
-  a:active {
-    text-decoration: none;
-    color: #0074d9;
-  }
-
-  .link-box a {
-    color: #000;
-    padding-right: 1rem;
-  }
-
-  .anchor-link {
-    position: relative;
-    transition: color 0.3s ease-in-out;
-  }
-  .anchor-link:hover {
-    color: #d65472;
-  }
 </style>
-<h1>Hi there 👋</h1>
-<h2>I'm Priyanshu Tiwari</h2>
+<h1>Blog Posts</h1>
+<ul>
+  {{ range .Pages }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
