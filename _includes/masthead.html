@@ -5,7 +5,7 @@
         <img src="{{ site.logo | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
       </a>
     {% endif %}
-    {% assign page_image = page.image.path | default: page.image %}
+    {% assign page_image = page.image.src | default: page.image %}
     {% unless page_image %}
       {% if page.url == '/' %}
         <h1 class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
