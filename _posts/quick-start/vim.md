@@ -2,8 +2,13 @@
 title: Vim Cheat Sheet
 author: ahampriyanshu
 excerpt: Let's improve Vi Improved
-categories: [Tutorials]
-tags: [priyanshu, tiwari, ahampriyanshu, tutorials, vim, Cheat, Sheet]
+categories:
+  - Tutorials
+tags:
+  - tutorials
+  - vim
+  - cheat
+  - sheet
 image:
   src: /images/tutorials/vim.png
   width: 1000
