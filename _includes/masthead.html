@@ -15,12 +15,4 @@
       <p class="site-description animated fadeIn" itemprop="description">{{ site.description }}</p>
     {% endunless %}
   </div>
-  // import search
-  <div class="search-container">
-    <form onsubmit="return false;">
-      <input type="input" id="search" class="search-input" placeholder="{{ site.data.text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}">
-    </form>
-    <div id="results"></div>
-  </div>
-  {% include lunr-search-scripts.html %}
 </header><!-- /.masthead -->
