@@ -1,27 +1,8 @@
-# Hugle
+* This site is hosted on [GitHub Pages](https://pages.github.com/) with [SO Simple Theme](https://github.com/mmistakes/so-simple-theme)
 
-Google Docs styled blog theme in [Hugo](https://gohugo.io/).
+## Some Links
 
-![hugle hugo theme](https://img.shields.io/github/license/ahampriyanshu/blog)
-![Tag version](https://img.shields.io/github/v/tag/ahampriyanshu/blog)
-![GitHub last commit](https://img.shields.io/github/last-commit/ahampriyanshu/blog/main)
+* [My portfolio](https://ahampriyanshu.com/)
+* [Experiments with competitive programming](https://ahampriyanshu.com/cp)
+* [Algo ds 101](https://dsa.ahampriyanshu.com/)
 
-[Demo](https://ahampriyanshu.com/blog) &nbsp; | &nbsp; [Setup](./##Usage) &nbsp;
-
-![Preview](./public/preview.png)
-
-## Features
-
-- [x] Responsive
-- [x] Google Analytics
-- [x] SEO support 🚀
-
-## Development
-
-```bash
-brew install git node go hugo
-git clone https://github.com/ahampriyanshu/blog.git hugle
-cd hugle
-yarn
-yarn dev
-```
