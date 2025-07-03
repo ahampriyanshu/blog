@@ -4,11 +4,6 @@ excerpt: Themes and plugins to tweak your linux terminal for better productivity
 author: ahampriyanshu
 categories: [Tutorials]
 tags: [priyanshu, tiwari, ahampriyanshu, tutorials]
-image:
-  src: /images/tutorials/omz.png
-  width: 1000
-  height: 400
-  alt: loading
 ---
 
 ## Making Linux Terminal Awesome

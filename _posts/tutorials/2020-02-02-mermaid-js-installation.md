@@ -5,11 +5,6 @@ excerpt: Installing mermaid in a Jekyll site and generating data structures thro
 mermaid: true
 categories: [Tutorials]
 tags: [priyanshu, tiwari, ahampriyanshu, tutorials]
-image:
-  src: /images/tutorials/mermaid.png
-  width: 1000
-  height: 400
-  alt: loading
 ---
 
 ## Mermaid JS

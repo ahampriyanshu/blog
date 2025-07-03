@@ -4,11 +4,6 @@ author: ahampriyanshu
 excerpt: Things to do after installing Manjaro Linux
 categories: [Tutorials]
 tags: [priyanshu, tiwari, ahampriyanshu, manjaro, linux, tutorials]
-image:
-  src: /images/tutorials/manjaro.png
-  width: 1000
-  height: 400
-  alt: loading
 ---
 
 ## Basic Setup
