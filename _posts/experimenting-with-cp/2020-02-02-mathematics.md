@@ -2,7 +2,10 @@
 title: "DSA Part 2: Mathematics"
 author: ahampriyanshu
 excerpt: Number sequences, extended euclidean algorithm, prime factorization, sieve of eratosthenes, lcm , gcd
-math: true
+mathjax:
+  enable: true
+  combo: "tex-svg"
+  tags: "ams"
 categories:
   - DSA
 tags:

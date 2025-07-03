@@ -2,7 +2,10 @@
 title: "DSA Part 3: Bit Manipulation"
 author: ahampriyanshu
 excerpt: binary numbers, msb, lsb, unsigned and signed 32-bits int, 2's complement, bitwise operators, some common bitwise operators
-math: true
+mathjax:
+  enable: true
+  combo: "tex-svg"
+  tags: "ams"
 categories:
   - DSA
 tags:
@@ -85,7 +88,7 @@ The first bit from the left(msb) is reserved. All the positive integers are stor
 - To avoid double representation of 0.
 - Also increases the range by one.
 
-##### 2's Complement
+* 2's Complement
 
 2’s complement of a number is obtained by inverting each bit of given number plus 1 to least significant bit(LSB).
 

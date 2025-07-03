@@ -1,7 +1,10 @@
 ---
 title: "Binary Trees | Striver’s A2Z DSA Course/Sheet"
 author: ahampriyanshu
-math: true
+mathjax:
+  enable: true
+  combo: "tex-svg"
+  tags: "ams"
 excerpt: C++ Solutions to Striver’s A2Z DSA Course/Sheet
 categories: [Sheets, TakeUforward]
 tags:
